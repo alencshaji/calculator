@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class=".col-lg-4 col-md-6 col-sm-8 mx-auto main">
+                <div class="cal  ">
+                    <div class="output">
+                        <input type="text" id="screen" class="form-control">
+                    </div>
+                    <h2 class="calulator-heading text-center">CALCULATOR</h2>
+                    <div class="buttons">
+                        <div class="row">
+                            <div onclick="buttonclick(7)" class="col-3">
+                                <button  class="btn">7</button>
+                            </div>
+                            <div onclick="buttonclick(8)" class="col-3">
+                                <button  class="btn">8</button>
+                            </div>
+                            <div onclick="buttonclick(9)" class="col-3">
+                                <button class="btn">9</button>
+                            </div>
+                            <div onclick="buttonclick('/')" class="col-3 btnx">
+                                <button class="btn">/</button>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="row">
+                                <div onclick="buttonclick(4)"  class="col-3">
+                                    <button class="btn">4</button>
+                                </div>
+                                <div  onclick="buttonclick(5)"  class="col-3">
+                                    <button class="btn">5</button>
+                                </div>
+                                <div onclick="buttonclick(6)"  class="col-3">
+                                    <button class="btn">6</button>
+                                </div>
+                                <div  onclick="buttonclick('-')" class="col-3 btnx">
+                                    <button class="btn">-</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="row">
+                                <div  onclick="buttonclick(1)" class="col-3">
+                                    <button class="btn">1</button>
+                                </div>
+                                <div onclick="buttonclick(2)" class="col-3">
+                                    <button  class="btn">2</button>
+                                </div>
+                                <div  onclick="buttonclick(3)"  class="col-3">
+                                    <button class="btn">3</button>
+                                </div>
+                                <div  onclick="buttonclick('+')"  class="col-3 btnx">
+                                    <button class="btn">+</button>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <div class="row">
+                                <div onclick="cancel('')" class="col-3 btnx">
+                                    <button  class="btn">del.</button>
+                                </div>
+                                <div onclick="buttonclick(0)" class="col-3">
+                                    <button  class="btn">0</button>
+                                </div>
+                                <div onclick="buttonclick('*')" class="col-3 btnx">
+                                    <button  class="btn">X</button>
+                                </div>   
+                                <div  onclick="clearScreen()" class="col-3 btnx">
+                                    <button class="btn">C</button>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <div class="row">
+                                   
+                                    <div onclick="buttonclick('.')" class="col-6">
+                                        <button class="btn">.</button>
+                                    </div>
+                                    <div onclick="equalClick('=')" class="col-6">
+                                        <button  class="btn">=</button>
+                                    </div>                       
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            
+
+            
+        </div>
+        
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

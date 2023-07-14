@@ -1,0 +1,55 @@
+.main{
+    background-color: rgb(1, 1, 1);
+}
+.cal{
+    margin-top: 2rem;
+    margin: 2rem;
+}
+.calulator-heading{
+    color: #fff;
+}
+.container{
+    margin:5rem auto;
+}
+#screen {
+    font-size: 24px;
+}
+
+.buttons button {
+    margin: 5px;
+    font-size: 24px;
+    
+}
+.buttons .col-3{
+    border: 1px solid rgb(239, 228, 228);
+    padding:1.5rem;
+}
+.buttons .btn{
+    color: rgb(216, 222, 228);
+}
+.buttons .col-6{
+    border: 1px solid rgb(213, 205, 205);
+    padding:1.5rem;
+}
+.buttons .col-3{
+    background-color: rgb(50, 47, 47);
+}
+.buttons .btnx{
+    background-color: rgb(209, 30, 30)!important;
+}
+.buttons .col-6{
+    background-color: rgb(209, 30, 30);
+}
+.buttons .col-6:hover{
+    background-color: rgb(228, 22, 22);
+    cursor: pointer;
+    color: black;
+}
+.buttons .btnx:hover{
+    background-color: rgb(228, 22, 22)!important;
+}
+.buttons .col-3:hover{
+    background-color: rgb(40, 39, 39);
+    cursor: pointer;
+    color: rgb(187, 173, 173);
+}
